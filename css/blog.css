@@ -1,0 +1,67 @@
+body{
+	font-family: sans-serif;
+	margin:0px;
+	padding: 20px;
+	background-color: white;
+}
+top-nav{
+ 	  float: left;
+ 	  margin-top: 70px; 
+ }
+
+
+ .top-nav li{
+ 	display: inline-block;
+ 	list-style: none;
+ 	margin-left: 50px;
+
+ }
+.top-nav li a{
+ 	color: black;
+ 	text-decoration:none;
+ 	text-transform:uppercase;
+ 	font-size: 100%;
+ 	font-weight: bold;
+ 	text-align: center;
+
+ }	
+.top-nav li a:hover{
+ 	background-color: none;
+ 	color: grey;
+
+}
+
+
+*{ box-sizing: border-box;
+}
+
+header{
+	background-color: orange;
+	padding: 40px;
+
+}
+header h1{
+	text-align: center;
+	font-size: 50px;
+	color: grey;
+	margin: 2 0px;
+}
+.left-column{
+float: left;
+width: 100%;
+}
+.card{
+	padding: 10px;
+	background-color:skyblue;
+	margin-top: 10px;	
+}
+.card img{
+	width: 40%
+}
+
+footer{
+	background-color: white;
+	padding: 10px;
+	text-align: center;
+	border: 2px solid black;
+}
